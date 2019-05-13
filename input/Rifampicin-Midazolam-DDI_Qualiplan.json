@@ -1,0 +1,41 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/master/schemas/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Rifampicin-Midazolam-DDI",
+            "Path": "Rifampicin-Midazolam-DDI.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {},
+        "PlotSettings": {},
+        "AllPlots": [
+            {
+                "Project": "Rifampicin-Midazolam-DDI",
+                "Simulation": "DDI Control - Midazolam - Backman 1996",
+                "SectionId": 1
+            },
+            {
+                "Project": "Rifampicin-Midazolam-DDI",
+                "Simulation": "DDI Treatment - Rifampicin/Midazolam - Backman 1996",
+                "SectionId": 1
+            },
+            {
+                "Project": "Rifampicin-Midazolam-DDI",
+                "Simulation": "DDI Treatment - Rifampicin/Midazolam - Backman 1998",
+                "SectionId": 1
+            }
+        ]
+    },
+    "Inputs": [],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "Tralala",
+            "Content": "content.md"
+        }
+    ]
+}
